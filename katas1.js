@@ -1,94 +1,89 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
+function contador(){
+  let num = " "
+  for (let i = 1; i <= 20; i++) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador())
 
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
+function contador1(){
+  let num = " "
+  for (let i = 2; i <= 20; i+=2) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador1())
 
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-   
+function contador2(){
+  let num = " "
+  for (let i = 1; i <= 20; i+=2) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador2())
 
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+function contador3(){
+  let num = " "
+  for (let i = 5; i <= 100; i+=5) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador3())
 
-//call function multiplesOfFive
-
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+function contador4(){
+  let num = " "
+  for (let i = 1; i <= 10; i++) {
+    num = num + i * i + ", "
+  }
+  return num
 }
+console.log(contador4())
 
-//call function squareNumbers
-
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function contador5(){
+  let num = " "
+  for (let i = 20; i >= 1; i--) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador5())
 
-//call function countingBackwards
-
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function contador6(){
+  let num = " "
+  for (let i = 20; i >= 2; i-=2) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador6())
 
-//call function evenNumbersBackwards
-
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function contador7(){
+  let num = " "
+  for (let i = 19; i >= 1; i-=2) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador7())
 
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function contador8(){
+  let num = " "
+  for (let i = 100; i >= 5; i-=5) {
+    num = num + i + ", "
+  }
+  return num
 }
+console.log(contador8())
 
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function contador9(){
+  let num = " "
+  for (let i = 10; i >= 1; i--) {
+    num = num + i * i + ", "
+  }
+  return num
 }
-
-//call function squareNumbersBackwards
+console.log(contador9())
